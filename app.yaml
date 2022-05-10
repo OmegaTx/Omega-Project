@@ -1,0 +1,5 @@
+RUNTIME: python3
+ENV: flex
+ENTRYPOINT: pywebio -b :$PORT main:app
+runtime_config: 
+      python_version: 3
